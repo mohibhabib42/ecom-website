@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>KOIBIRD</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="header">
+			<span class="search-box">
+				<img src="./assets/icons/SEARCH ICON.svg" />
+				<input class="normal-text" />
+			</span>
+
+			<img src="./assets/icons/LOGO.svg" class="header-logo" />
+
+			<span class="header-actions-container">
+				<span class="header-actions small-text">
+					<span> Register </span>
+					<span> | </span>
+					<span> My Account </span>
+				</span>
+
+				<span class="header-actions-icons">
+					<img src="./assets/icons/WISHLIST ICON.svg" />
+					<img src="./assets/icons/bag icon.svg" />
+				</span>
+			</span>
+		</div>
+
+		<nav class="normal-text">
+			<span class="nav-item"> SHOP BY CATEGORY </span>
+
+			<span class="shop-brand-nav nav-item">
+				SHOP BY BRAND
+
+				<div class="nav-brand-options">
+					<div>
+						<span> ANNAKIKI </span>
+						<span> ANNE WEST </span>
+						<span> BACON CLOTHING </span>
+						<span> BLACK CROWS </span>
+						<span> BLANCHA </span>
+						<span> CANCELLATO </span>
+						<span> CORDOVA </span>
+						<span> FUSALP </span>
+						<span> I LOVE MR MITTENS </span>
+						<span> IENKI IENKI </span>
+					</div>
+					<div>
+						<span> LE KILT </span>
+						<span> LINGUA FRANCA </span>
+						<span> MORPHO AND LUNA </span>
+						<span> NASTAHA ZINKO </span>
+						<span> PERFECT MOMENT </span>
+						<span> SPENCER VLADIMIR </span>
+						<span> STAND </span>
+						<span> WILD AND WOOLLY </span>
+						<span> WOOLY BOOLY </span>
+						<span> BLACK CROWS </span>
+					</div>
+				</div>
+			</span>
+
+			<span class="nav-item"> SHOP BY COLLECTION </span>
+
+			<span class="nav-item"> ABOUT KOIBIRD </span>
+
+			<span class="nav-item"> POP-UP SHOP </span>
+		</nav>
+
+		<div class="main-img-container">
+			<img class="main-img" src="./assets/images/main.png" />
+		</div>
+
+		<div class="medium-text-bold bg-brand-color p-48 text-center">
+			<span class="shopping-now-text"> WHAT WE ARE SHOPPING NOW </span>
+		</div>
+
+		<div class="new-inn-container">
+			<div class="new-inn">
+				<div class="new-inn-text-container">
+					<span class="large-text new-inn-text"> NEW IN </span>
+				</div>
+
+				<div class="new-inn-slide-images">
+					<img
+						onclick="scrollProducts('new-inn-products' , 'left')"
+						id="new-inn-left-scroll-btn"
+						height="33px"
+						width="16px"
+						src="./assets/icons/left.svg"
+					/>
+					<div id="new-inn-products" class="images-scroll-container">
+						<div class="new-inn-product-item">
+							<img height="379px" src="./assets/images/first product.png" />
+							<div
+								class="normal-text text-center flex flex-column content-center"
+							>
+								<div class="heart-container">
+									<img
+										height="12px"
+										width="14px"
+										src="./assets/icons/heart.svg"
+									/>
+								</div>
+								<span class="prod-title">BLACK JACKET</span>
+								<span class="grey-color">Gucci</span>
+								<span>£000</span>
+								<span class="shop-now">SHOP NOW</span>
+							</div>
+						</div>
+						<div class="new-inn-product-item">
+							<img height="379px" src="./assets/images/second product.png" />
+
+							<div
+								class="normal-text text-center flex flex-column content-center"
+							>
+								<div class="heart-container">
+									<img
+										height="12px"
+										width="14px"
+										src="./assets/icons/heart.svg"
+									/>
+								</div>
+								<span class="prod-title">WHITE JACKET</span>
+								<span class="grey-color">Bacon Clothing</span>
+								<span>£000</span>
+								<span class="shop-now">SHOP NOW</span>
+							</div>
+						</div>
+						<div class="new-inn-product-item">
+							<img height="379px" src="./assets/images/third product.png" />
+
+							<div
+								class="normal-text text-center flex flex-column content-center"
+							>
+								<div class="heart-container">
+									<img
+										height="12px"
+										width="14px"
+										src="./assets/icons/filled heart.svg"
+									/>
+								</div>
+								<span class="prod-title">YELLOW JACKET</span>
+								<span class="grey-color">Annakiki</span>
+								<span>£000</span>
+								<span class="shop-now">SHOP NOW</span>
+							</div>
+						</div>
+						<div class="new-inn-product-item">
+							<img height="379px" src="./assets/images/fourth product.png" />
+
+							<div
+								class="normal-text text-center flex flex-column content-center"
+							>
+								<div class="heart-container">
+									<img
+										height="12px"
+										width="14px"
+										src="./assets/icons/filled heart.svg"
+									/>
+								</div>
+								<span class="prod-title">CAMOUFLAGE JACKET</span>
+								<span class="grey-color">Black Crows</span>
+								<span>£000</span>
+								<span class="shop-now">SHOP NOW</span>
+							</div>
+						</div>
+					</div>
+					<img
+						onclick="scrollProducts('new-inn-products' , 'right')"
+						id="new-inn-right-scroll-btn"
+						height="33px"
+						width="16px"
+						src="./assets/icons/right.svg"
+					/>
+				</div>
+
+				<div class="grid-categories-container">
+					<div class="category-item">
+						<div class="layover"></div>
+						<img src="./assets/images/category_one.png" />
+						<div class="category-image-text">
+							<span class="extra-large-text">OUTERWEAR</span>
+
+							<div class="category-shop-now">
+								<span class="normal-text">SHOP NOW</span>
+								<img
+									width="5px"
+									height="10px"
+									src="./assets/icons/shop now right arraw.svg"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="category-item">
+						<div class="layover"></div>
+						<img src="./assets/images/category_two.png" />
+						<div class="category-image-text">
+							<span class="extra-large-text">SKIS</span>
+							<div class="category-shop-now">
+								<span class="normal-text">SHOP NOW</span>
+								<img
+									width="5px"
+									height="10px"
+									src="./assets/icons/shop now right arraw.svg"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="category-item">
+						<div class="layover"></div>
+						<img src="./assets/images/category_three.png" />
+						<div class="category-image-text">
+							<span class="extra-large-text">KNITWEAR</span>
+							<div class="category-shop-now">
+								<span class="normal-text">SHOP NOW</span>
+								<img
+									width="5px"
+									height="10px"
+									src="./assets/icons/shop now right arraw.svg"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="category-item">
+						<div class="layover"></div>
+						<img src="./assets/images/category_four.png" />
+						<div class="category-image-text">
+							<span class="extra-large-text">ACCESSORIES</span>
+							<div class="category-shop-now">
+								<span class="normal-text">SHOP NOW</span>
+								<img
+									width="5px"
+									height="10px"
+									src="./assets/icons/shop now right arraw.svg"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="category-item">
+						<div class="layover"></div>
+						<img src="./assets/images/category_five.png" />
+						<div class="category-image-text">
+							<span class="extra-large-text">GOGGLES</span>
+							<div class="category-shop-now">
+								<span class="normal-text">SHOP NOW</span>
+								<img
+									width="5px"
+									height="10px"
+									src="./assets/icons/shop now right arraw.svg"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="category-item">
+						<div class="layover"></div>
+						<img src="./assets/images/category_six.png" />
+						<div class="category-image-text">
+							<span class="extra-large-text">JACKETS</span>
+							<div class="category-shop-now">
+								<span class="normal-text">SHOP NOW</span>
+								<img
+									width="5px"
+									height="10px"
+									src="./assets/icons/shop now right arraw.svg"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="best-sellers-container">
+			<div class="new-inn">
+				<div class="new-inn-text-container">
+					<span class="large-text new-inn-text"> BEST SELLERS </span>
+				</div>
+
+				<div class="new-inn-slide-images">
+					<img
+						onclick="scrollProducts('best-seller-products' , 'left')"
+						id="new-inn-left-scroll-btn"
+						height="33px"
+						width="16px"
+						src="./assets/icons/left.svg"
+					/>
+					<div id="best-seller-products" class="images-scroll-container">
+						<div class="new-inn-product-item">
+							<img height="367px" src="./assets/images/best-seller1.png" />
+							<div
+								class="normal-text text-center flex flex-column content-center"
+							>
+								<div class="heart-container">
+									<img
+										height="12px"
+										width="14px"
+										src="./assets/icons/heart.svg"
+									/>
+								</div>
+								<span class="prod-title">BLACK JACKET</span>
+								<span class="grey-color">Gucci</span>
+								<span>£000</span>
+								<span class="shop-now">SHOP NOW</span>
+							</div>
+						</div>
+						<div class="new-inn-product-item">
+							<img height="367px" src="./assets/images/best-seller2.png" />
+
+							<div
+								class="normal-text text-center flex flex-column content-center"
+							>
+								<div class="heart-container">
+									<img
+										height="12px"
+										width="14px"
+										src="./assets/icons/heart.svg"
+									/>
+								</div>
+								<span class="prod-title">WHITE JACKET</span>
+								<span class="grey-color">Bacon Clothing</span>
+								<span>£000</span>
+								<span class="shop-now">SHOP NOW</span>
+							</div>
+						</div>
+						<div class="new-inn-product-item">
+							<img height="367px" src="./assets/images/best-seller3.png" />
+
+							<div
+								class="normal-text text-center flex flex-column content-center"
+							>
+								<div class="heart-container">
+									<img
+										height="12px"
+										width="14px"
+										src="./assets/icons/filled heart.svg"
+									/>
+								</div>
+								<span class="prod-title">YELLOW JACKET</span>
+								<span class="grey-color">Annakiki</span>
+								<span>£000</span>
+								<span class="shop-now">SHOP NOW</span>
+							</div>
+						</div>
+						<div class="new-inn-product-item">
+							<img height="367px" src="./assets/images/best-seller4.png" />
+
+							<div
+								class="normal-text text-center flex flex-column content-center"
+							>
+								<div class="heart-container">
+									<img
+										height="12px"
+										width="14px"
+										src="./assets/icons/filled heart.svg"
+									/>
+								</div>
+								<span class="prod-title">CAMOUFLAGE JACKET</span>
+								<span class="grey-color">Black Crows</span>
+								<span>£000</span>
+								<span class="shop-now">SHOP NOW</span>
+							</div>
+						</div>
+					</div>
+					<img
+						onclick="scrollProducts('best-seller-products' , 'right')"
+						id="new-inn-right-scroll-btn"
+						height="33px"
+						width="16px"
+						src="./assets/icons/right.svg"
+					/>
+				</div>
+			</div>
+		</div>
+
+		<div class="koiski-container">
+			<div class="kioski-text medium-large-text">#KOISKI</div>
+			<img src="./assets/images/grid-1.png" />
+			<img src="./assets/images/grid-2.png" />
+			<img src="./assets/images/grid-3.png" />
+			<img src="./assets/images/grid-4.png" />
+			<img src="./assets/images/grid-5.png" />
+			<img src="./assets/images/grid-6.png" />
+			<img src="./assets/images/grid-7.png" />
+			<img src="./assets/images/grid-8.png" />
+			<img src="./assets/images/grid-9.png" />
+			<img src="./assets/images/grid-10.png" />
+			<img src="./assets/images/grid-11.png" />
+			<img src="./assets/images/grid-12.png" />
+		</div>
+
+		<footer>
+			<div class="about-brand">
+				<div class="footer-logo-container">
+					<img src="./assets/images/footerlogo.png" />
+				</div>
+
+				<div class="footer-navs normal-text">
+					<span> ABOUT </span>
+					<span> TERMS & CONDITIONS </span>
+					<span> PRIVACY POLICY </span>
+					<span> CONTACT US </span>
+				</div>
+			</div>
+
+			<div class="news-letter-container">
+				<span class="normal-text"> SIGN UP FOR OUR NEWSLETTER </span>
+				<input />
+				<span class="news-letter-checkbox">
+					<input
+						class="normal-text"
+						style="border: none; outline: none; border: 2px solid red"
+						type="checkbox"
+					/>
+					<p class="small-text">
+						GDPR tick box GDPR tick box GDPR tick box GDPR tick box GDPR tick
+						box
+					</p>
+				</span>
+				<span class="normal-text"> SUBMIT > </span>
+			</div>
+		</footer>
+		<script src="./scripts.js" async defer></script>
+	</body>
+</html>
